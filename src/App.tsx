@@ -24,7 +24,7 @@ export const App = () => (
   <ChakraProvider>
     <Routes>
       <Route
-        path="/"
+        path="/iframetest"
         element={
           <ProtectedRoute isAuthenticated={true} authenticationPath="/login" outlet={<Layout />} />
         }
